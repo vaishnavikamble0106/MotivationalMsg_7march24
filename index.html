@@ -1,0 +1,65 @@
+<html>
+<head>
+	<title> Motivational Message App </title>
+	<style>
+		* {font-size:50px; font-family:Calibri;}
+		body {background-color: lightyellow;}
+	</style>
+	<script>
+			function gm()
+			{
+			event.preventDefault();		
+			let msg = document.getElementById("msg");
+	let messages = ["m1", "m2", "m3"];
+	let r = parseInt(Math.random() * messages.length);
+	msg.innerHTML = messages[r];
+	}
+	</script>
+</head>
+<body>
+<center>
+		<h1> Motivational Messages App </h1>
+		<form onsubmit = "gm()">
+			<input type = "submit" value= "Get Msg"/>
+		</form>
+		<h2 id ="msg"/>
+</center>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+			
+
+				
